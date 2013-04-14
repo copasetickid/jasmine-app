@@ -20,7 +20,17 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development, :test do
+  gem "jasmine"
+  gem "guard"
+  gem "guard-jasmine"
+  gem "rb-inotify", "~> 0.8.8", :require => false
+  gem "rb-fsevent", :require => false
+  gem "rb-fchange", :require => false
+end
+
 gem 'jquery-rails'
+
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
