@@ -10,6 +10,6 @@
 // WARNING: THE FIRST BLANK LINE MARKS THE END OF WHAT'S TO BE PROCESSED, ANY BLANK LINE SHOULD
 // GO AFTER THE REQUIRES BELOW.
 //
-//= require jquery/jquery-1.9.1
-//= require jquery/jquery.mobile-1.2.0
-
+//= require lib/jquery-1.9.1
+//= require lib/jquery.mobile-1.3.0
+//= require listings
